@@ -2,7 +2,7 @@ import random
 
 print("Bem vindo ao Jogo da palavra embaralhada!")
 
-jogar = str(input("jogar? Sim/Não."))
+jogar = str(input("jogar? Sim/NÃ£o."))
 
 while jogar == 'Sim' or jogar == 'sim':
 
@@ -10,7 +10,8 @@ while jogar == 'Sim' or jogar == 'sim':
 
 	b = 'paralelepipedo'
 
-	c = 'caminhão'
+	c = 'caminhÃ£o'
+	
 	d = 'filtro'
 
 	e = 'facebook'
@@ -21,7 +22,7 @@ while jogar == 'Sim' or jogar == 'sim':
 
 	h = 'chocolate'
 
-	i = 'júpiter'
+	i = 'jÃºpiter'
 
 	j = 'segredo'
 
@@ -45,20 +46,20 @@ while jogar == 'Sim' or jogar == 'sim':
 
 	print()
 
-	resposta = input("\nQual é a palavra?\n")
+	resposta = input("\nQual Ã© a palavra?\n")
 
 	if resposta == palavra:
 
-		print("\nParabéns, você acertou!!")
+		print("\nParabÃ©ns, vocÃª acertou!!")
 
-		jogar = str(input("\njogar novamente? Sim/Não.\n"))
+		jogar = str(input("\njogar novamente? Sim/NÃ£o.\n"))
 
 	else:
 
-		print("\nQue pena, você errou.\n")
+		print("\nQue pena, vocÃª errou.\n")
 
 		print("A resposta certa era",palavra)
 
-		jogar = str(input("\njogar novamente? Sim/Não.\n"))
+		jogar = str(input("\njogar novamente? Sim/NÃ£o.\n"))
 
 print("Programa encerrado.")
