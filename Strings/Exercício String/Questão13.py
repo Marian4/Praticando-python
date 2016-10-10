@@ -6,27 +6,27 @@ jogar = str(input("jogar? Sim/Não."))
 
 while jogar == 'Sim' or jogar == 'sim':
 
-	a = 'otorrinolaringologista'
+	a = 'Otorrinolaringologista'
 
-	b = 'paralelepipedo'
+	b = 'Paralelepipedo'
 
-	c = 'caminhão'
+	c = 'Caminhão'
 	
-	d = 'filtro'
+	d = 'Filtro'
 
-	e = 'facebook'
+	e = 'Facebook'
 
-	f = 'banheiro'
+	f = 'Banheiro'
 
-	g = 'torta'
+	g = 'Torta'
 
-	h = 'chocolate'
+	h = 'Chocolate'
 
-	i = 'júpiter'
+	i = 'Júpiter'
 
-	j = 'segredo'
+	j = 'Segredo'
 
-	k = 'guardanapo'
+	k = 'Guardanapo'
 
 	lista = [a,b,c,d,e,f,g,h,i,j,k]
 
@@ -42,7 +42,7 @@ while jogar == 'Sim' or jogar == 'sim':
 
 	for j in range(len(palavra)):
 
-		print(lista2[j],end='')
+		print(lista2[j],end=' ')
 
 	print()
 
@@ -62,4 +62,6 @@ while jogar == 'Sim' or jogar == 'sim':
 
 		jogar = str(input("\njogar novamente? Sim/Não.\n"))
 
+if jogar == 'não' or jogar == 'Não':
+	print("Obrigado por jogar")
 print("Programa encerrado.")
